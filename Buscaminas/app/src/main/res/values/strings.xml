@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Buscaminas</string>
+    <string name="bomba">BOOOM</string>
+    <string name="controles">
+        pulsacion CORTA  - destapa casillas \n
+        \n
+        \n
+        pulsacion LARGA(mas de 1 segundo y medio) - pone o quita Bandera
+    </string>
+    <string name="reglas"> El juego consiste en despejar todas las casillas (54) de una pantalla que no oculten una bomba.\n
+        \n
+        Algunas casillas tienen un número, el cual indica la cantidad de bombas que hay en las casillas circundantes.\n
+        \n
+        Así, si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor (si no es en una esquina o borde) hay 3 con bombas y 5 sin bombas.\n
+        Si se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene bomba y éstas se descubren automáticamente.\n
+        Si se descubre una casilla con una bomba se pierde la partida.\n
+        Se puede poner una marca en las casillas que el jugador piensa que hay bomba para ayudar a descubrir las que están cerca. </string>
+</resources>
